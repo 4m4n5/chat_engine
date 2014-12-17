@@ -12,7 +12,7 @@
             <textarea placeholder="Type your message"></textarea>
             <div class="chat-status">Status: <span>Idle</span></div>
         </div>
-        <script src="http://127.0.0.1:8080/socket.io/socket.io.js"></script>
+        <script src="http://amanthedorkknight.github.io/chat_engine/socket.io/socket.io.js"></script>
         <script>
             (function(){
                 var getNode = function(s){
@@ -38,7 +38,7 @@
                 };
                 
                 try{
-                    var socket = io.connect('http://127.0.0.1:8080');
+                    var socket = io.connect('http://amanthedorkknight.github.io/chat_engine/');
                 } catch(e) {
                     //set status to warn user
                 }
